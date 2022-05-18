@@ -12,14 +12,17 @@
 | wassim dorbez | wassimdorbez@outlook.com |
 
 #### Tools:
-* Node 
+* Node  /express/
 * JWT 
 * google cloud 
 
-##### this term of references:
-###### have functions and tools to build these
+##### This term of references:
+###### have functions and tools to build response full stuck website...
 <br>
 <br>
+
+---
+# **Frontend:**
 
 >React
 
@@ -32,8 +35,8 @@ import react from "react"
 ### __installed :__ 
 
 + ## [chartjs](https://www.chartjs.org/ "click to link")
-    + curve
-    + ## statistic:
+    + npm install chart.js
+    +  _exemple statistic:_
       DEATH RECOVERED NEW CASES ...
       <br>
 
@@ -42,9 +45,10 @@ import react from "react"
 
 
 + ## [Material Ui](https://mui.com/ "click to link")
-    * new update 2022 
-    * ### collect components and elements:
+    * npm install @mui/material @emotion/react @emotion/styled
+    *  _exemple collect components and elements:_
     CARDS / CARDS CONTENTS / GRID
+
     <br>
 + ## CountUp:
      animation for counting the numbers of cases ...
@@ -52,6 +56,8 @@ import react from "react"
 <br>
 <br>
 <br>
+---
+# **Backend:**
 
 >Bcrypte
 
@@ -62,7 +68,7 @@ const Password = 's0/\/\P4$$w0rD';
 ```
 
 ### __functions used:__
-1. hash
+1. **hash**: sytem to convert
 ```javascript
 bcrypt.hash(Password, saltRounds, function(err, hash) {
     // salt or pepper
@@ -75,32 +81,63 @@ const hash = bcrypt.hashSync(password, salt);
 ````````
 3. ###  add salt:
 
-___salt___ : generate random addition password at end of each password to more secure because of hacking.
-<br>
-<br>
--
-<p> 
-rounds=8 : ~40 hashes/sec
-rounds=9 : ~20 hashes/sec
-rounds=10: ~10 hashes/sec
-rounds=11: ~5  hashes/sec
-rounds=12: 2-3 hashes/sec
-rounds=13: ~1 sec/hash
-......
+___gensalt___ : generate random text for hash its addition password added at end of each password to makes more secure password against the hacking.
 
-</p> 
+<br>
+
+<span style="color:yellow">
+
+rounds=8 : ~40 hashes/sec
+
+rounds=9 : ~20 hashes/sec
+
+rounds=10: ~10 hashes/sec
+
+rounds=11: ~5  hashes/sec
+
+rounds=12: 2-3 hashes/sec
+
+rounds=13: ~1 sec/hash
+
+</span>
 
 <br>
 
 ![https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png](https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png "title")
 
 
+
 >Mongoose
+
+
+***_SET UP MONGOOSE CONNECTION_***
+
+
 ```````javascript
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/test');
+
+//use unified topology :30 seconds 'beats' = Fail
+//use new url to avoid parser error
 ````````
 <br>
+
+---
+|FX|RULES|
+|---|---|
+|isActive|its running "isRunning" till stop else if not start|
+|multer.disk storage|full cotrol of storing files|
+|callBack|exemple complete time stamp so stop till task end|
+|DB URL|DB database process.env URL environement path valid|
+|Url Parser|BackUP|
+|findbyidandupdate|to find document and update the arg|
+|find one|to find document critere|
+|pretty|display cursor clearly|
+|populate|data inside references|
+|await|to return promise|
+|bcrypt|build password|
+|next|return object with two proprietes done and value|
+|cookies|app between server and client|
 
 ---
 ***
@@ -117,8 +154,53 @@ mongoose.connect('mongodb://localhost:27017/test');
 - [ ] Google Cloud
     - [ ] Google Map
     - [ ] Firebase
+
 ---
 ***
 ---
 
+<br>
 
+
+## **SERVERS**:
+
+
+<span style="color:green"> **server say work perfect:** </span>
+
+100-information
+
+101-switching protocol
+
+200-success
+
+201-created
+<div style="color:yellow"> 204-no content </div>
+<br>
+
+300-redirected
+
+301-moved permentley
+
+302-found
+
+304-not modify
+
+<br>
+
+<span style="color:red">**server say you have problem:**</span>
+
+400-errors
+
+400-bad request
+
+403-forbidden
+
+415-unsupported media type
+
+500-server error
+
+502-bad gateway
+
+504-gateaway timeout
+
+---
