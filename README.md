@@ -85,21 +85,34 @@ ___gensalt___ : generate random text for hash its addition password added at end
 
 <br>
 
-<font style="color:yellow">
 
-rounds=8 : ~40 hashes/sec
+```diff
 
-rounds=9 : ~20 hashes/sec
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
 
-rounds=10: ~10 hashes/sec
+```
 
-rounds=11: ~5  hashes/sec
 
-rounds=12: 2-3 hashes/sec
 
-rounds=13: ~1 sec/hash
+```diff
 
-</font>
+! rounds=8 : ~40 hashes/sec
+
+! rounds=9 : ~20 hashes/sec
+
+! rounds=10: ~10 hashes/sec
+
+! rounds=11: ~5  hashes/sec
+
+! rounds=12: 2-3 hashes/sec
+
+! rounds=13: ~1 sec/hash
+
+```
 
 <br>
 
