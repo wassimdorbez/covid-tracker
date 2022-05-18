@@ -1,4 +1,7 @@
+
 # **Corona website**
+
+
 ![https://i.ytimg.com/vi/Nv33sHscfLk/maxresdefault.jpg](https://i.ytimg.com/vi/Nv33sHscfLk/maxresdefault.jpg "title")
 ---
 ## Date: 18/05/2022 - 31/05/2022
@@ -16,8 +19,10 @@
 * JWT 
 * google cloud 
 
-##### This term of references:
-###### have functions and tools to build response full stuck website...
+```diff
+@@ TERM OF REFERNCES (and bold)@@
+# have functions and tools to build response full stuck website...
+```
 <br>
 <br>
 
@@ -84,19 +89,6 @@ const hash = bcrypt.hashSync(password, salt);
 ___gensalt___ : generate random text for hash its addition password added at end of each password to makes more secure password against the hacking.
 
 <br>
-
-
-```diff
-
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-
-```
-
-
 
 ```diff
 
@@ -177,8 +169,9 @@ mongoose.connect('mongodb://localhost:27017/test');
 
 ## **SERVERS**:
 
-
-<font style="color:green"> **server say work perfect:** </font>
+```diff
++ server say work perfect:
+```
 
 100-information
 
@@ -200,7 +193,9 @@ mongoose.connect('mongodb://localhost:27017/test');
 
 <br>
 
-<font style="color:red">**server say you have problem:**</font>
+```diff
+- server say you have problem:
+```
 
 400-errors
 
@@ -217,3 +212,4 @@ mongoose.connect('mongodb://localhost:27017/test');
 504-gateaway timeout
 
 ---
+
