@@ -85,7 +85,7 @@ ___gensalt___ : generate random text for hash its addition password added at end
 
 <br>
 
-<span style="color:yellow">
+<font style="color:yellow">
 
 rounds=8 : ~40 hashes/sec
 
@@ -99,7 +99,7 @@ rounds=12: 2-3 hashes/sec
 
 rounds=13: ~1 sec/hash
 
-</span>
+</font>
 
 <br>
 
@@ -165,7 +165,7 @@ mongoose.connect('mongodb://localhost:27017/test');
 ## **SERVERS**:
 
 
-<span style="color:green"> **server say work perfect:** </span>
+<font style="color:green"> **server say work perfect:** </font>
 
 100-information
 
@@ -187,7 +187,7 @@ mongoose.connect('mongodb://localhost:27017/test');
 
 <br>
 
-<span style="color:red">**server say you have problem:**</span>
+<font style="color:red">**server say you have problem:**</font>
 
 400-errors
 
