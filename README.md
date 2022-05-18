@@ -20,7 +20,7 @@
 * google cloud 
 
 ```diff
-@@ TERM OF REFERNCES (and bold)@@
+@@ TERM OF REFERNCES: @@
 # have functions and tools to build response full stuck website...
 ```
 <br>
