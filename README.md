@@ -2,7 +2,7 @@
 # **Corona website**
 
 
-![https://i.ytimg.com/vi/Nv33sHscfLk/maxresdefault.jpg](https://i.ytimg.com/vi/Nv33sHscfLk/maxresdefault.jpg "title")
+![https://i.ytimg.com/vi/Nv33sHscfLk/maxresdefault.jpg](https://i.ytimg.com/vi/Nv33sHscfLk/maxresdefault.jpg "click to link")
 ---
 ## Date: 18/05/2022 - 31/05/2022
 ---
@@ -40,7 +40,7 @@ import react from "react"
 ### __installed :__ 
 
 + ## [chartjs](https://www.chartjs.org/ "click to link")
-    + npm install chart.js
+    + npm install chart.js-2
     +  _exemple statistic:_
       DEATH RECOVERED NEW CASES ...
       <br>
@@ -108,6 +108,11 @@ ___gensalt___ : generate random text for hash its addition password added at end
 
 <br>
 
+```diff
+! Token
+# give delay to the sign in user and then sign him out
+```
+<br>
 ![https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png](https://miro.medium.com/max/900/1*b0TtGI6gWFLltL1QkRxVdg.png "title")
 
 
